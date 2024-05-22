@@ -7,11 +7,6 @@
 	text-indent: 0;
 }
 
-[epub|type~="z3998:poem"] p + p > span:first-child{
-	padding-left: 2em;
-	text-indent: -1em;
-}
-
 [epub|type~="z3998:poem"] p > span{
 	display: block;
 	padding-left: 1em;
@@ -22,6 +17,13 @@
 	display: none;
 }
 /* end poetry */
+
+/* custom poetry */
+[epub|type~="z3998:poem"] p + p > span:first-child{
+	padding-left: 2em;
+	text-indent: -1em;
+}
+/* end custom poetry */
 
 /* era */
 abbr[epub|type~="se:era"]{
