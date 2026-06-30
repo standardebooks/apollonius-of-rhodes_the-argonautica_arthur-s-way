@@ -1,19 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
-<package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0" unique-identifier="uid" version="3.0" xml:lang="en-US">
+<package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0 rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#" unique-identifier="uid" version="3.0" xml:lang="en-US">
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
 		<dc:identifier id="uid">https://standardebooks.org/ebooks/apollonius-of-rhodes/the-argonautica/arthur-s-way</dc:identifier>
 		<dc:date>2024-05-23T20:34:02Z</dc:date>
 		<meta property="dcterms:modified">2024-05-23T20:34:02Z</meta>
 		<dc:rights>The source text and artwork in this ebook are believed to be in the United States public domain; that is, they are believed to be free of copyright restrictions in the United States. They may still be copyrighted in other countries, so users located outside of the United States must check their local laws before using this ebook. The creators of, and contributors to, this ebook dedicate their contributions to the worldwide public domain via the terms in the [CC0 1.0 Universal Public Domain Dedication](https://creativecommons.org/publicdomain/zero/1.0/).</dc:rights>
+		<meta property="rdf:type">http://schema.org/Book</meta>
 		<dc:publisher id="publisher">Standard Ebooks</dc:publisher>
 		<meta property="file-as" refines="#publisher">Standard Ebooks</meta>
-		<meta property="se:url.homepage" refines="#publisher">https://standardebooks.org/</meta>
+		<link href="https://standardebooks.org/" refines="#publisher" rel="schema:url"/>
 		<meta property="role" refines="#publisher" scheme="marc:relators">bkd</meta>
 		<meta property="role" refines="#publisher" scheme="marc:relators">mdc</meta>
 		<meta property="role" refines="#publisher" scheme="marc:relators">pbl</meta>
 		<dc:contributor id="type-designer">The League of Moveable Type</dc:contributor>
 		<meta property="file-as" refines="#type-designer">League of Moveable Type, The</meta>
-		<meta property="se:url.homepage" refines="#type-designer">https://www.theleagueofmoveabletype.com/</meta>
+		<link href="https://www.theleagueofmoveabletype.com/" refines="#type-designer" rel="schema:url"/>
 		<meta property="role" refines="#type-designer" scheme="marc:relators">tyd</meta>
 		<meta id="conformance-statement" property="dcterms:conformsTo">EPUB Accessibility 1.1 - WCAG 2.2 Level AA</meta>
 		<meta property="a11y:certifiedBy" refines="#conformance-statement">Standard Ebooks</meta>
@@ -38,7 +39,7 @@
 		<meta property="term" refines="#subject-2">Unknown</meta>
 		<meta property="authority" refines="#subject-3">LCSH</meta>
 		<meta property="term" refines="#subject-3">sh2009115555</meta>
-		<meta property="se:subject">Poetry</meta>
+		<meta property="schema:genre">Poetry</meta>
 		<dc:description id="description">A Greek hero voyages to a distant land to steal the fabled Golden Fleece.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
 			&lt;p&gt;&lt;i&gt;The Argonautica&lt;/i&gt; is an epic mythical poem by &lt;a href="https://standardebooks.org/ebooks/apollonius-of-rhodes"&gt;Apollonius of Rhodes&lt;/a&gt;. The myth tells of how Jason and his crew of Argonauts sail to Kolchis at the far end of the world to retrieve the Golden Fleece. They face many dangers and ask the favor of the Greek gods to help them along the way. These gods induce Medea, a daughter of the king of Kolchis, to fall in love with Jason so that she will be bound to help him win the Fleece. The voyage takes the crew through the Hellespont to the Black Sea, and back out to further adventures around the Mediterranean. While the characters were already known to ancient audiences, this is the first known work to tell this particular story in full.&lt;/p&gt;
@@ -47,34 +48,36 @@
 		<dc:language>en-GB</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/64235</dc:source>
 		<dc:source>https://archive.org/details/taleofargonauts00apol</dc:source>
-		<meta property="se:word-count">70968</meta>
-		<meta property="se:reading-ease.flesch">59.71</meta>
-		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/Argonautica</meta>
-		<meta property="se:url.vcs.github">https://github.com/standardebooks/apollonius-of-rhodes_the-argonautica_arthur-s-way</meta>
+		<meta property="schema:wordCount">70968</meta>
+		<meta property="schema:educationalLevel">59.71</meta>
+		<link href="https://en.wikipedia.org/wiki/Argonautica" rel="schema:sameAs"/>
+		<meta property="schema:workExample" id="vcs-repository">schema:workExample</meta>
+		<meta property="rdf:type" refines="#vcs-repository">http://schema.org/SoftwareSourceCode</meta>
+		<link href="https://github.com/standardebooks/apollonius-of-rhodes_the-argonautica_arthur-s-way" refines="#vcs-repository" rel="schema:codeRepository"/>
 		<dc:creator id="author">Apollonius of Rhodes</dc:creator>
 		<meta property="file-as" refines="#author">Rhodes, Apollonius of</meta>
 		<meta property="alternate-script" refines="#author">Ἀπολλώνιος Ῥόδιος</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#author">https://en.wikipedia.org/wiki/Apollonius_of_Rhodes</meta>
-		<meta property="se:url.authority.nacoaf" refines="#author">http://id.loc.gov/authorities/names/n80008541</meta>
+		<link href="https://en.wikipedia.org/wiki/Apollonius_of_Rhodes" refines="#author" rel="schema:sameAs"/>
+		<link href="https://id.loc.gov/authorities/names/n80008541.html" refines="#author" rel="schema:sameAs"/>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
 		<dc:contributor id="translator">Arthur S. Way</dc:contributor>
 		<meta property="file-as" refines="#translator">Way, Arthur S.</meta>
-		<meta property="se:name.person.full-name" refines="#translator">Arthur Sanders Way</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#translator">https://en.wikipedia.org/wiki/Arthur_S._Way</meta>
-		<meta property="se:url.authority.nacoaf" refines="#translator">http://id.loc.gov/authorities/names/n81012085</meta>
+		<meta property="schema:alternateName" refines="#translator">Arthur Sanders Way</meta>
+		<link href="https://en.wikipedia.org/wiki/Arthur_S._Way" refines="#translator" rel="schema:sameAs"/>
+		<link href="https://id.loc.gov/authorities/names/n81012085.html" refines="#translator" rel="schema:sameAs"/>
 		<meta property="role" refines="#translator" scheme="marc:relators">ann</meta>
 		<meta property="role" refines="#translator" scheme="marc:relators">trl</meta>
 		<dc:contributor id="artist">John William Waterhouse</dc:contributor>
 		<meta property="file-as" refines="#artist">Waterhouse, John William</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">https://en.wikipedia.org/wiki/John_William_Waterhouse</meta>
-		<meta property="se:url.authority.nacoaf" refines="#artist">http://id.loc.gov/authorities/names/n79044158</meta>
+		<link href="https://en.wikipedia.org/wiki/John_William_Waterhouse" refines="#artist" rel="schema:sameAs"/>
+		<link href="https://id.loc.gov/authorities/names/n79044158.html" refines="#artist" rel="schema:sameAs"/>
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
 		<dc:contributor id="transcriber-1">David Thomas</dc:contributor>
 		<meta property="file-as" refines="#transcriber-1">Thomas, David</meta>
 		<meta property="role" refines="#transcriber-1" scheme="marc:relators">trc</meta>
 		<dc:contributor id="producer-1">Jason Livermore</dc:contributor>
 		<meta property="file-as" refines="#producer-1">Livermore, Jason</meta>
-		<meta property="se:url.homepage" refines="#producer-1">https://www.linkedin.com/in/jason-livermore-b854a97</meta>
+		<link href="https://www.linkedin.com/in/jason-livermore-b854a97" refines="#producer-1" rel="schema:url"/>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">bkp</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">blw</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">cov</meta>
@@ -83,7 +86,7 @@
 		<meta property="role" refines="#producer-1" scheme="marc:relators">tyg</meta>
 		<dc:contributor id="producer-2">Vince Rice</dc:contributor>
 		<meta property="file-as" refines="#producer-2">Rice, Vince</meta>
-		<meta property="se:url.homepage" refines="#producer-2">https://www.brokenandsaved.com/</meta>
+		<link href="https://www.brokenandsaved.com/" refines="#producer-2" rel="schema:url"/>
 		<meta property="role" refines="#producer-2" scheme="marc:relators">pfr</meta>
 	</metadata>
 	<manifest>
